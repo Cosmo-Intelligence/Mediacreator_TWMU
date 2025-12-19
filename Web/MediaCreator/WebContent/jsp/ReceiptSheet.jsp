@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     
 <%@ page import="MediaCreator.Common.*" %> 
 <%@ page import="java.sql.*" %> 
@@ -385,11 +385,11 @@
 				<br/>
 				<%-- フォーマット変更(2047247) 2015/12/04 S.Terakata(STI) --%>
 				<%-- <span style="font-size:small;">*上記必要事項を記入の上、外来センター1階医療画像連携推進室にてCD-Rを受け取って下さい。</span> --%>
-				<span style="font-size:small;">*総合外来センター1階、からだ情報館となりの医療画像連携室にてCD-Rを受け取って下さい。</span><br/>
+				<span style="font-size:small;">*総合外来センター1階、ローソンとなりの医療画像連携室にてCD-Rを受け取って下さい。</span><br/>
 				<span style="font-size:small;">*画像の受け取りは、原則患者本人、又は代理人(ご家族)とさせて頂きます。</span><br/>
 				<span style="font-size:small;">*受け取りの際に、診察券のご提示をお願いします。</span><br/>
 				<span style="font-size:small; font-weight:bold; text-decoration:underline;">*代理の方がお受け取りの場合は、診察券と受取者の身分証のご提示をお願いします。</span><br/>
-				<span style="font-size:small;">*入院されている方の受け渡しは、原則「退院日」とさせて頂きます。</span>
+				<span style="font-size:small;">*入院されている方の受け渡しは、原則「退院日」、外来については原則「外来受診日」とさせて頂きます。また、状況により受け渡しが遅れてしまう場合がありますので、その際はご連絡させて頂きます。</span>
 			</td>
 		</tr>
 	</table>
