@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+
+
+html,body{
+	height: 97%;
+	color: #005365;	/*文字の色*/
+	font-weight: bold;
+	
+	font-family: "Meiryo UI", Meiryo, Arial, sans-serif;
+	*font-family: "MS PGothic", "MS UI Gothic", Arial, sans-serif; /* for IE7 */
+	font-size: 0.9em;
+	
+}
+
+th{
+	background-color: #EDFEFF;
+	border-color: #3DACC4;
+	border-width:1px;
+	border-style:solid;
+	border-spacing:0px;
+	border-collapse:collapse;"
+}
+
+table,tr,td{
+	border-color: #005365;
+}
+
+.studytable{
+	border-color: #3DACC4;
+	border-width:1px;
+	border-style:solid;
+	border-spacing:0px;
+	border-collapse:collapse;
+	font-weight:normal;
+}
+
+
+H1{
+	text-decoration:underline;
+}
+
+
+
+input[type="text"]{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #3DACC4;
+}
+
+input[type="password"]{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #3DACC4;
+}
+
+select{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #3DACC4;
+}
+
+textarea{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #3DACC4;
+}
+
+.main-back{
+	width:1230px;
+	margin:5px auto;
+	background-color: #FFFFFF;
+}
+
+.noborder{
+	border-width: 0px;
+	border-style: none;
+}
+
+/* いちばん薄い青 */
+.frame1{
+	background-color: #EDFEFF;
+	border-width: 1px;
+	border-style: solid;
+}
+
+/* 薄い青 */
+.frame2{
+	background-color: #BADEEE;
+	border-width: 1px;
+	border-style: solid;
+}
+
+/* 濃い青 */
+.frame3{
+	background-color: #62A4C1;
+	border-width: 1px;
+	border-style: solid;
+}
+
+/*白*/
+.frame-white{
+background-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.cmdbtn{
+	font-size: small;
+	height: 30px;
+	width: 113px;
+	outline : none;
+	border-style: none;
+}
+
+.smallbtn{
+	font-size: small;
+	height: 30px;
+	width: 113px;
+	outline : none;
+	border-style: none;
+}
+
+.errmsg {
+	color: red;
+}
+
+.ui-datepicker { font-size: 70%; }
+
+.ui-datepicker-trigger {
+	width: 16px;
+	height: 24px;
+	background-color: #C7ECF8;
+	border-top: 1px solid #3DACC4;
+	border-right: 1px solid #3DACC4;
+	border-bottom: 1px solid #3DACC4;
+}
+
+.ui-datepicker-header {
+	background-color: #62A2C1;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+	width: 35%;
+}
+
+.orderInfoItem{
+	width:280px;
+}
+
+textarea{
+	resize:none;
+}
+

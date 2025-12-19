@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MediaCreator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User Id=rris; password=rris1; Data Source=rris;</Value>
+    </Setting>
+    <Setting Name="Interval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="OrderDataFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Publisher\SYSTEM\ORDER\DATA</Value>
+    </Setting>
+    <Setting Name="OrderIndexFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Publisher\SYSTEM\ORDER\INDEX</Value>
+    </Setting>
+    <Setting Name="OrderLogFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Publisher\SYSTEM\ORDER\LOG</Value>
+    </Setting>
+    <Setting Name="ResultDataFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Publisher\SYSTEM\RESULT\DATA</Value>
+    </Setting>
+    <Setting Name="ResultIndexFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Publisher\SYSTEM\RESULT\INDEX</Value>
+    </Setting>
+    <Setting Name="ResultLogFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Publisher\SYSTEM\RESULT\LOG</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

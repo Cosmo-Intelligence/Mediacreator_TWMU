@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context
+	path="/MediaCreater"
+	reloadable="true"
+
+	workDir="C:\Webapps">
+
+
+	<Resource
+		name="jdbc/oracle/arqs"
+		auth="Container"
+		type="oracle.jdbc.pool.OracleDataSource"
+		factory="oracle.jdbc.pool.OracleDataSourceFactory"
+		connectionCachingEnabled="true"
+		maxActive="100"
+		maxIdle="30"
+		maxWait="10000"
+		user="arqs"
+		password="arqs_user"
+		url="jdbc:oracle:thin:@192.168.40.183:1521:rris"
+		connectionCacheProperties="{MaxLimit=10,ConnectionWaitTimeout=10,ValidateConnection=true}"
+	/>
+
+	<Resource
+		name="jdbc/oracle/unity"
+		auth="Container"
+		type="oracle.jdbc.pool.OracleDataSource"
+		factory="oracle.jdbc.pool.OracleDataSourceFactory"
+		connectionCachingEnabled="true"
+		maxActive="100"
+		maxIdle="30"
+		maxWait="10000"
+		user="yokogawa"
+		password="denki"
+		url="jdbc:oracle:thin:@192.168.23.130:1521:arqs"
+		connectionCacheProperties="{MaxLimit=10,ConnectionWaitTimeout=10,ValidateConnection=true}"
+	/>
+
+
+	<Resource
+		name="jdbc/oracle/rris"
+		auth="Container"
+		type="oracle.jdbc.pool.OracleDataSource"
+		factory="oracle.jdbc.pool.OracleDataSourceFactory"
+		connectionCachingEnabled="true"
+		maxActive="100"
+		maxIdle="30"
+		maxWait="10000"
+		user="rris"
+		password="rris1"
+		url="jdbc:oracle:thin:@192.168.40.183:1521:rris"
+		connectionCacheProperties="{MaxLimit=10,ConnectionWaitTimeout=10,ValidateConnection=true}"
+	/>
+
+</Context>

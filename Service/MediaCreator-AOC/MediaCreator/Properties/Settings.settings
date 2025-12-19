@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MediaCreator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User Id=rris; password=rris1; Data Source=rris;</Value>
+    </Setting>
+    <Setting Name="Interval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="OrderDataFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\192.168.23.129\Publisher-AOC\REQUEST</Value>
+    </Setting>
+    <Setting Name="OrderLogFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\192.168.23.129\Publisher-AOC\LOG</Value>
+    </Setting>
+    <Setting Name="ResultDataFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\192.168.23.129\Publisher-AOC\RESULT</Value>
+    </Setting>
+    <Setting Name="ResultLogFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\192.168.23.129\Publisher-AOC\BKUP</Value>
+    </Setting>
+    <Setting Name="strHostName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.23.130</Value>
+    </Setting>
+    <Setting Name="strAEtitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MediaCreat</Value>
+    </Setting>
+    <Setting Name="iPortNum" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="strQueryAEtitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QueryAE</Value>
+    </Setting>
+    <Setting Name="strMoveAEtitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MoveAE</Value>
+    </Setting>
+    <Setting Name="iMovePortNum" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">5100</Value>
+    </Setting>
+    <Setting Name="ProtocolName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DICOM</Value>
+    </Setting>
+    <Setting Name="NetworkUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">administrator</Value>
+    </Setting>
+    <Setting Name="NetworkPass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yokogawa</Value>
+    </Setting>
+    <Setting Name="ResultDataBackupFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\192.168.23.129\BKUP</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

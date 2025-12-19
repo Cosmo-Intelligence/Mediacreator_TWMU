@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+button{
+	display: none;
+}
+
+input#submit_button {
+	display: none;
+}
+
+input#button {
+	display: none;
+}
+
+.cmdbtn{
+	display: none;
+}
+
+.smallbtn{
+	display: none;
+}
+
+html,body{
+	color: #000000;
+}
+

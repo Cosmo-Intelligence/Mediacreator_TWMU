@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+
+
+html,body{
+	color: #000000;
+	font-family: "Meiryo UI", Meiryo, Arial, sans-serif;
+	*font-family: "MS PGothic", "MS UI Gothic", Arial, sans-serif; /* for IE7 */
+}
+
+
+table,tr,td,th{
+	border-color: #000000;
+}
+
+
+
+H1{
+	text-decoration:underline;
+}
+
+
+.print-frame{
+	widht:640px;
+	height:900px;
+	background-color: #FFFFFF;
+	border-width: 0px;
+	border-style: none;
+	border-color: #FFFFFF;
+}
+
+.print-table{
+	background-color: #FFFFFF;
+	border-width: 1px;
+	border-style: none;
+	border-color: #000000;
+	border-spacing:0px;	
+	border-collapse:collapse;
+}
+
+.print-table tr{
+	height:45px;
+}
+
+.print-cell{
+	background-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	border-spacing:0px;	
+	border-collapse:collapse;
+}
+
+.print-noborder{
+	border-width: 0px;
+	border-style: none;
+}
+
+.noborder{
+	border-width: 0px;
+	border-style: none;
+}
+
+.cmdbtn{
+	font-size: small;
+	height: 30px;
+	width: 113px;
+}
+
+.smallbtn{
+	font-size: small;
+	height: 30px;
+	width: 113px;
+}

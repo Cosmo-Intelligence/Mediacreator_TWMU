@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+
+	<!-- メディア作成オーダーの検査種別ID -->
+	<KensaTypeId>F010</KensaTypeId>
+
+	<!-- 作成区分の部位ID。複数の場合はカンマ区切り -->
+	<BuiId>990101,990104,810460,039413</BuiId>
+
+	<!-- 作成装置の検査機器ID。複数の場合はカンマ区切り -->
+	<!-- <KensaKikiId>9901EQ01,9901EQ02</KensaKikiId>  -->
+	<KensaKikiId>9901EQ01,440,K110</KensaKikiId>
+
+	<!-- 患者IDの文字数 -->
+	<PatientLength>10</PatientLength>
+
+	<!-- ViewCのURL(&は&amp;) 変数は右記。%1$s:ユーザーID  %2$s:パスワード  %3$s:AccessionNo  %4$s:StudyInstanceUID -->
+	<!-- <ViewCURL>http://localhost/ImageVinsWeb/Search.aspx?User=yoko&amp;Passwd=yoko&amp;ACNO=%3$s&amp;SUID=%4$s</ViewCURL>  -->
+
+	<!-- ViewCのURL(&は&amp;) AccessionNoを使用する場合 -->
+	<ViewCURL>http://localhost/ImageVinsWeb/Search.aspx?User=yoko00&amp;Passwd=yoko11&amp;ACNO=%3$s</ViewCURL>
+
+	<!-- ViewCのURL(&は&amp;) StudyInstanceUIDを使用する場合 -->
+	<!-- <ViewCURL>http://localhost/ImageVinsWeb/Search.aspx?User=yoko&amp;Passwd=yoko&amp;SUID=%4$s</ViewCURL> -->
+
+	<!-- 業務時間のチェック有無(Y:チェックする N:チェックしない) -->
+	<CheckWorkTime>N</CheckWorkTime>
+
+	<!-- StudyInstanceUIDの固定部 -->
+	<StudyInstanceUID>1.2.392.200045.6960.4.7</StudyInstanceUID>
+
+	<!-- 問合せ先 -->
+	<InformationSection>放射線科:内線 1234</InformationSection>
+
+	<!-- 画像選択グリッドの列順。カンマ区切りで順番のみ変更可。文言は変更しないでください。-->
+	<ColumnOrder>選択,検査日,モダリティ,AccessionNo,検査種別,画像,備考</ColumnOrder>
+
+	<!-- メディア種別。 コードと名称はセミコロンで区切り、コードと名称のセットをカンマで区切る。 -->
+	<MediaType>1:CD,2:DVD,3:AUTO,4:その他</MediaType>
+
+	<!-- メディア受取票のjsp。デバッグ用なので通常は変更しないでください。 -->
+	<ReceiptSheetJSP>jsp/ReceiptSheet.jsp</ReceiptSheetJSP>
+
+	<!-- 検査室ID -->
+	<KensasituID>F4000001</KensasituID>
+
+	<!-- 実施者ID(UserManage) -->
+	<JisisyaID></JisisyaID>
+
+	<!-- 会計連携ダイアログ表示有無(Y:表示する N:表示しない) -->
+	<KaikeiDialog>Y</KaikeiDialog>
+
+	<!-- DB接続リトライ回数 -->
+	<ConnectRetryLimit>3</ConnectRetryLimit>
+
+	<!-- DB接続リトライ間隔(秒) -->
+	<ConnectRetryInterval>10</ConnectRetryInterval>
+
+</Settings>
